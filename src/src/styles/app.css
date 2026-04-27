@@ -1,0 +1,45 @@
+.page {
+  margin-top: 1rem;
+}
+
+.product-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.4fr);
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.detail-img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.detail-category {
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.detail-desc {
+  color: #374151;
+  line-height: 1.5;
+}
+
+.detail-price {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.detail-variant {
+  font-size: 0.85rem;
+  color: #4b5563;
+}
