@@ -1,0 +1,115 @@
+.product-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-search-input {
+  flex: 1;
+  min-width: 180px;
+  max-width: 320px;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+}
+
+.product-select {
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+
+.product-search-row {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-search-input {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-search-input {
+  flex: 1;
+  min-width: 180px;
+  max-width: 320px;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+}
+
+.product-select {
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+/* existing grid styles */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NEW: pagination */
+.product-pagination {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.product-pagination button {
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  cursor: pointer;
+}
+
+.product-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+
+
+                                            /* cd "c:\Users\goswa\OneDrive\Desktop\personal portfolio\ecommerce-frontend-capstone" */
+                                           /* npm start */
